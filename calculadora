@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Calculadora</title>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Calculadora</h1>
+  <div id="calc">
+    <div id="campos">
+      <p id="campo1">
+        <input type="text" id="valor1" disabled="disabled">
+      </p>
+      <p id="campo2">
+        <input type="text" id="valor2" disabled="disabled">
+      </p>
+      <div>
+
+        <div id="botoes">
+          <button id="memoria" onclick="MemoryClear()">MC</button>
+          <button class="memoria" onclick="MemoryRecall()">MR</button>
+          <button class="memoria" onclick="MemoryStore()">MS</button>
+          <button class="memoria" onclick="MemorySoma()">M+</button>
+          <button class="memoria" onclick="MemorySubtracao()">M-</button>
+          <button class="backspace" onclick="Backspace()">←</button>
+          <button class="backspace" onclick="Apagar()">C</button>
+          <button class="CA" onclick="ApagarTudo()">CA</button>
+          <button id="operacoes" onclick="AddMenos()">±</button>
+          <button onclick="RaizQuadrada()">√</button>
+          </br>
+          <button onclick="Expressao(7)">7</button>
+          <button onclick="Expressao(8)">8</button>
+          <button onclick="Expressao(9)">9</button>
+          <button class="operacoesprimarias" onclick="Divisao()">/</button>
+          <button id="porcentagem" onclick="Porcentagem()">%</button>
+          </br>
+          <button onclick="Expressao(4)">4</button>
+          <button onclick="Expressao(5)">5</button>
+          <button onclick="Expressao(6)">6</button>
+          <button class="operacoesprimarias" onclick="Multiplicacao()">*</button>
+          <button id="1sobrex" onclick="Sobrex()">1/x</button>
+
+          </br>
+          <button onclick="Expressao(1)">1</button>
+          <button onclick="Expressao(2)">2</button>
+          <button onclick="Expressao(3)">3</button>
+          <button class="operacoesprimarias" onclick="Subtracao()">-</button>
+          </br>
+          <button id="zero" onclick="Expressao(0)">0</button>
+          <button id="ponto" onclick="Ponto()">.</button>
+          <button class="operacoesprimarias" onclick="Soma()">+</button>
+          <button id="igual" onclick="Resultado()">=</button>
+
+        </div>
+
+        <p>
+          <input id="resultado" type="text" disabled="disabled">
+        </p>
+      </div>
+</body>
+
+</html>Soma()">+</button>
+          <button id="igual" onclick="Resultado()">=</button>
+
+        </div>
+
+        <p>
+          <input id="resultado" type="text" disabled="disabled">
+        </p>
+      </div>
+</body>
+
+</html>
